@@ -205,6 +205,13 @@ async function downloader_jd() {
             "京喜工厂互助码"
         );
     }
+    if (remoteContent.indexOf("jdJxncTokens.js") > 0) {
+        await download(
+            "https://github.com/Choicc/MyActions/raw/main/scripts/jdJxncTokens.js",
+            "./jdJxncTokens.js",
+            "京喜农场token"
+        );
+    }
     if (remoteContent.indexOf("new Env('京喜农场')") > 0) {
         await download(
             "https://github.com/Choicc/MyActions/raw/main/scripts/jdJxncTokens.js",
