@@ -47,5 +47,5 @@ jobs:
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   UN_SUBSCRIBES: ${{ github.event.client_payload.UNSUBSCRIBE || secrets.UNSUBSCRIBE }}
-                  SYNCURL: jd_unsubscribe.js
+                  SYNCURL: https://raw.githubusercontent.com/zhizhi945/jd_scripts/master/jd_unsubscribe.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
