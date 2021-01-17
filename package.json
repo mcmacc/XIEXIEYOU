@@ -19,7 +19,7 @@
         "url": "https://github.com/sazs34/MyActions/issues"
     },
     "homepage": "https://github.com/sazs34/MyActions#readme",
-    "dependencies": {
+    "devDependencies": {
         "request": "^2.88.2",
         "request-promise": "^4.2.5",
         "crypto-js": "^4.0.0",
