@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         if: env.JD_COOKIE
         run: |
-          git clone https://github.com/zhizhi945/XIEXIEYOU.git ~/TaskAction
+          git clone https://github.com/zsh35/jd_scripts.git ~/TaskAction
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         if: env.JD_COOKIE
@@ -39,7 +39,7 @@ jobs:
         if: env.JD_COOKIE
         run: |
           cd ~/TaskAction
-          git checkout my2
+          git checkout my3
           npm install
       - name: '运行 【工业品爱消除】'
         run: |
