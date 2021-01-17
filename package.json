@@ -1,5 +1,5 @@
 {
-    "name": "xiexieyou",
+    "name": "myactions",
     "version": "1.0.0",
     "description": "sign everything",
     "main": "app.js",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zhizhi945/XIEXIEYOU.git"
+        "url": "git+https://github.com/sazs34/MyActions.git"
     },
     "keywords": [
         "sign"
@@ -16,11 +16,10 @@
     "author": "sazs",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/zhizhi945/XIEXIEYOU/issues"
+        "url": "https://github.com/sazs34/MyActions/issues"
     },
-    "homepage": "https://github.com/zhizhi945/XIEXIEYOU#readme",
-    "devDependencies": {
-        "axios": ">=0.21.1"
+    "homepage": "https://github.com/sazs34/MyActions#readme",
+    "dependencies": {
         "request": "^2.88.2",
         "request-promise": "^4.2.5",
         "crypto-js": "^4.0.0",
