@@ -20,6 +20,7 @@
     },
     "homepage": "https://github.com/sazs34/MyActions#readme",
     "dependencies": {
+        "axios": ">=0.21.1"
         "request": "^2.88.2",
         "request-promise": "^4.2.5",
         "crypto-js": "^4.0.0",
