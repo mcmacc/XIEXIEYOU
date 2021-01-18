@@ -49,5 +49,5 @@ jobs:
                   JOY_FEED_COUNT: ${{ github.event.client_payload.JOY_FEED_COUNT || secrets.JOY_FEED_COUNT }}
                   JOY_RUN_FLAG: ${{ github.event.client_payload.JOY_RUN_FLAG || secrets.JOY_RUN_FLAG }}
                   JOY_TEAM_LEVEL: ${{ github.event.client_payload.JOY_TEAM_LEVEL || secrets.JOY_TEAM_LEVEL }}
-                  SYNCURL: https://raw.githubusercontent.com/zhizhi945/jd_scripts/master/jd_joy.js
+                  SYNCURL: https://raw.githubusercontent.com/mcmacc/jd_scripts/master/jd_joy.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
