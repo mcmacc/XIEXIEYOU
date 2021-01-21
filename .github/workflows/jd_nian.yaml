@@ -50,3 +50,4 @@ jobs:
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
                   JDNIAN_SHARECODES: ${{ github.event.client_payload.JDNIAN_SHARECODES || secrets.JDNIAN_SHARECODES }}
+                  JD_WECHAT_USER_AGENT: ${{ github.event.client_payload.JD_WECHAT_USER_AGENT || secrets.JD_WECHAT_USER_AGENT }}
