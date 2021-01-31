@@ -6,7 +6,7 @@ name: 小鸽有礼
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 3 * * *"
+        - cron: "5 4 * * *"
     watch:
         types: [started]
     repository_dispatch:
