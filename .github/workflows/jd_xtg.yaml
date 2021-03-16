@@ -6,7 +6,7 @@ name: 手机尚学季
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 0 0 * *"
+        - cron: "0 0 * * *"
     watch:
         types: [started]
     repository_dispatch:
@@ -48,3 +48,4 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   SYNCURL: https://raw.githubusercontent.com/mcmacc/jd_jiaoben/master/jd_xtg.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
+                  BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
